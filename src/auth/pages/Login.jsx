@@ -7,6 +7,7 @@ import logo from "../../assets/images/laxxa.png";
 
 /* 👉 MOBILE ASSETS */
 import mobileBg from "../../assets/images/mobile-bg.jpg";
+import mobileLogo from "../../assets/images/laxxa-mobile.jpg";
 
 const LoginPage = () => {
   const GoogleIcon = ({ size = 18 }) => (
@@ -72,7 +73,7 @@ const LoginPage = () => {
 
         <div className="relative z-10 h-full flex flex-col px-5 py-6">
           {/* SAME DESKTOP LOGO */}
-          <img src={logo} alt="LAXXA" className="mx-auto h-8 mt-4" />
+          <img src={mobileLogo} alt="LAXXA" className="mx-auto h-8 mt-4" />
 
           {!showMobileInput && (
             <div className="mt-auto space-y-4 pb-6">
